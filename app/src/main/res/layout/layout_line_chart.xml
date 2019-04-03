@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14dp"
+        android:text="软件17-4素质分统计图，具体如下图所示"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<lecho.lib.hellocharts.view.LineChartView
+    android:id="@+id/lv_chart"
+    android:layout_width="wrap_content"
+    android:layout_height="480dp" />
+</LinearLayout>
